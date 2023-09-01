@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { App } from './templates/App';
-import { Home } from './custom-hooks';
+import { Home2 } from './useAsync';
+import { Home3 } from './useLayoutEffect';
+import { Home4 } from './compound-components';
 
 
 
@@ -9,6 +10,6 @@ import { Home } from './custom-hooks';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
+    <Home4 />
   </React.StrictMode>
 );
